@@ -1,10 +1,10 @@
 const express = require('express')
+const cors = require('cors')
 const routes = require('./routes')
 const app = express()
 
-/**
- * Parei dia 24/03 35min
- */
+
+app.use(cors())
 
 /**
  * Para o body entender json
